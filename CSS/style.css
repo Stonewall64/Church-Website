@@ -2,7 +2,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
 body {
   background-color: rgb(64, 64, 65);
-
+  background-image: linear-gradient(rgba(0, 13, 202, 0.475), rgba(235, 235, 235, 0.763));
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 .nav-bar {
@@ -12,4 +14,51 @@ body {
     justify-content: center;
     padding-bottom: 0%;
     opacity: .75;
+}
+
+  /* This is for the NavBar */ 
+.nav-bar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    /*background-color: #333;*/
+    background-color: rgb(15, 15, 15);
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+    
+.nav-bar li {
+    float: left;
+}
+    
+.nav-bar li a {
+    display: block;
+    color: rgb(252, 252, 252);
+    font-size: x-large;
+    font-family: 'Helvetica';
+    font-weight: bold;
+    text-align: center;
+    padding: 24px 26px;
+    text-decoration: none;
+  }
+
+.nav-bar li a:hover {
+    background-color: #915959;
+}
+
+footer {
+  text-align: center;
+  padding: 10px;
+  background-color: #abbaba;
+  color: #000;
+  margin-top: auto;
+}
+
+.welcome-message {
+  text-align: center;
+  padding: 70px;
+  font-size: xx-large;
 }
