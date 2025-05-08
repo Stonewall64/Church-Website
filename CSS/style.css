@@ -59,6 +59,29 @@ footer {
 
 .welcome-message {
   text-align: center;
-  padding: 70px;
+  padding: 50px;
+  font-size: xx-large;
+}
+
+.church-news {
+  text-align: center;
+  font-size: xx-large;
+}
+
+.sermon-message {
+  text-align: center;
+  margin-top: 6%;
+  font-size: xx-large;
+}
+
+.sermon-video {
+  display: flex;
+  justify-content: center;
+}
+
+.ministries-message {
+  display: flex;
+  margin: 6%;
+  justify-content: center;
   font-size: xx-large;
 }

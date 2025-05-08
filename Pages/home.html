@@ -3,22 +3,23 @@
     <head> 
         <title>Home</title>
         <link rel="stylesheet" href="..\CSS\style.css"> 
+        <link rel="import" href="navBar.html">
+        <script>
+        var content=document.querySelector('link[rel="import"]').import;
+        </script>
+ <!--       <script src="..\Scripts\scripts.js"></script> -->
 
-        <div class="nav-bar"> <!-- This is the nav bar code -->
-            <ul>
-                <li><a href="home.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="ministries.html">Ministries</a></li>
-                <li><a href="sermons.html">Sermons</a></li>
-                <li><a href="contact.html">Contact Us</a></li>
-                <li><a href="giving.html">Giving</a></li>
-                </ul>
-        </div>
+
     </head>
 <body>
 <div class="welcome-message">
     <h1>Welcome to Church</h1>
 </div>
+
+<div class="church-news">
+    <h2>Church News</h2>
+</div>
+
 </body>
     
 <footer> Church © 2025</footer>
