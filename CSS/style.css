@@ -85,3 +85,20 @@ footer {
   justify-content: center;
   font-size: xx-large;
 }
+
+.about-church{
+  display: flex;
+  justify-content: left;
+  padding-left: 18%;
+  font-size: larger;
+}
+
+.about-background {
+  background-color: #ffffff;
+  
+}
+
+.about-text-1 {
+  font-family: 'Helvetica';
+  font-size: large;
+}
